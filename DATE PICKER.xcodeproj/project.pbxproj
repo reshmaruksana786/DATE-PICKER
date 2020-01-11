@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		248988EDEEB8CDA9D4468AF2 /* Pods_DATE_PICKERUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FE1F78F98DBD8A84C936F5 /* Pods_DATE_PICKERUITests.framework */; };
+		460EB36D0FADB017BA664430 /* Pods_DATE_PICKERTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A21317C3940FFB6C97E728 /* Pods_DATE_PICKERTests.framework */; };
+		5CFB9483BF9D5ED9ECDA1F7E /* Pods_DATE_PICKER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9D2202144036FA68EC6595 /* Pods_DATE_PICKER.framework */; };
 		835169422361A9A900EAD164 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835169412361A9A900EAD164 /* AppDelegate.swift */; };
 		835169442361A9A900EAD164 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835169432361A9A900EAD164 /* ViewController.swift */; };
 		835169472361A9A900EAD164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835169452361A9A900EAD164 /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03DA68C72EDBABB5A2E159CC /* Pods-DATE PICKERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DATE PICKERTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DATE PICKERTests/Pods-DATE PICKERTests.release.xcconfig"; sourceTree = "<group>"; };
+		14FE1F78F98DBD8A84C936F5 /* Pods_DATE_PICKERUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DATE_PICKERUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		309C62A061D6FBD52BB80693 /* Pods-DATE PICKERUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DATE PICKERUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DATE PICKERUITests/Pods-DATE PICKERUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CCF6210340B30A9B0BCE73D /* Pods-DATE PICKERUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DATE PICKERUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DATE PICKERUITests/Pods-DATE PICKERUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B1E7DF10930B940D30DA7E3 /* Pods-DATE PICKER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DATE PICKER.release.xcconfig"; path = "Pods/Target Support Files/Pods-DATE PICKER/Pods-DATE PICKER.release.xcconfig"; sourceTree = "<group>"; };
+		5DE928AABA466605614FF2FC /* Pods-DATE PICKER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DATE PICKER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DATE PICKER/Pods-DATE PICKER.debug.xcconfig"; sourceTree = "<group>"; };
+		5F9D2202144036FA68EC6595 /* Pods_DATE_PICKER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DATE_PICKER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A5928813C338E44CF0FC801 /* Pods-DATE PICKERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DATE PICKERTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DATE PICKERTests/Pods-DATE PICKERTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8351693E2361A9A900EAD164 /* DATE PICKER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DATE PICKER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		835169412361A9A900EAD164 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		835169432361A9A900EAD164 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		8351695D2361A9AD00EAD164 /* DATE PICKERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DATE PICKERUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		835169612361A9AD00EAD164 /* DATE_PICKERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DATE_PICKERUITests.swift; sourceTree = "<group>"; };
 		835169632361A9AD00EAD164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A21317C3940FFB6C97E728 /* Pods_DATE_PICKERTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DATE_PICKERTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CFB9483BF9D5ED9ECDA1F7E /* Pods_DATE_PICKER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				460EB36D0FADB017BA664430 /* Pods_DATE_PICKERTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248988EDEEB8CDA9D4468AF2 /* Pods_DATE_PICKERUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7222213EC667A6C8BF99CAF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F9D2202144036FA68EC6595 /* Pods_DATE_PICKER.framework */,
+				E0A21317C3940FFB6C97E728 /* Pods_DATE_PICKERTests.framework */,
+				14FE1F78F98DBD8A84C936F5 /* Pods_DATE_PICKERUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		835169352361A9A900EAD164 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				835169552361A9AD00EAD164 /* DATE PICKERTests */,
 				835169602361A9AD00EAD164 /* DATE PICKERUITests */,
 				8351693F2361A9A900EAD164 /* Products */,
+				C9EE18EE068440BC7F7AEFA8 /* Pods */,
+				7222213EC667A6C8BF99CAF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = "DATE PICKERUITests";
 			sourceTree = "<group>";
 		};
+		C9EE18EE068440BC7F7AEFA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DE928AABA466605614FF2FC /* Pods-DATE PICKER.debug.xcconfig */,
+				5B1E7DF10930B940D30DA7E3 /* Pods-DATE PICKER.release.xcconfig */,
+				6A5928813C338E44CF0FC801 /* Pods-DATE PICKERTests.debug.xcconfig */,
+				03DA68C72EDBABB5A2E159CC /* Pods-DATE PICKERTests.release.xcconfig */,
+				309C62A061D6FBD52BB80693 /* Pods-DATE PICKERUITests.debug.xcconfig */,
+				3CCF6210340B30A9B0BCE73D /* Pods-DATE PICKERUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 835169662361A9AD00EAD164 /* Build configuration list for PBXNativeTarget "DATE PICKER" */;
 			buildPhases = (
+				A5EDD1D4BE72C5BBE1314786 /* [CP] Check Pods Manifest.lock */,
 				8351693A2361A9A900EAD164 /* Sources */,
 				8351693B2361A9A900EAD164 /* Frameworks */,
 				8351693C2361A9A900EAD164 /* Resources */,
+				0978A47125D849DE1EDD2A06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 835169692361A9AD00EAD164 /* Build configuration list for PBXNativeTarget "DATE PICKERTests" */;
 			buildPhases = (
+				28BAAD254E9CD68F28E60E4C /* [CP] Check Pods Manifest.lock */,
 				8351694E2361A9AD00EAD164 /* Sources */,
 				8351694F2361A9AD00EAD164 /* Frameworks */,
 				835169502361A9AD00EAD164 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8351696C2361A9AD00EAD164 /* Build configuration list for PBXNativeTarget "DATE PICKERUITests" */;
 			buildPhases = (
+				867710016A51FD65F3096091 /* [CP] Check Pods Manifest.lock */,
 				835169592361A9AD00EAD164 /* Sources */,
 				8351695A2361A9AD00EAD164 /* Frameworks */,
 				8351695B2361A9AD00EAD164 /* Resources */,
@@ -250,6 +294,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0978A47125D849DE1EDD2A06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DATE PICKER/Pods-DATE PICKER-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DATE PICKER/Pods-DATE PICKER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28BAAD254E9CD68F28E60E4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DATE PICKERTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		867710016A51FD65F3096091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DATE PICKERUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5EDD1D4BE72C5BBE1314786 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DATE PICKER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8351693A2361A9A900EAD164 /* Sources */ = {
@@ -430,6 +567,7 @@
 		};
 		835169672361A9AD00EAD164 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE928AABA466605614FF2FC /* Pods-DATE PICKER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +585,7 @@
 		};
 		835169682361A9AD00EAD164 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1E7DF10930B940D30DA7E3 /* Pods-DATE PICKER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +603,7 @@
 		};
 		8351696A2361A9AD00EAD164 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5928813C338E44CF0FC801 /* Pods-DATE PICKERTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +624,7 @@
 		};
 		8351696B2361A9AD00EAD164 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03DA68C72EDBABB5A2E159CC /* Pods-DATE PICKERTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +645,7 @@
 		};
 		8351696D2361A9AD00EAD164 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309C62A061D6FBD52BB80693 /* Pods-DATE PICKERUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +665,7 @@
 		};
 		8351696E2361A9AD00EAD164 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCF6210340B30A9B0BCE73D /* Pods-DATE PICKERUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
